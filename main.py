@@ -1,0 +1,12 @@
+name = input("What is your name? ")
+age = int(input("What is your age? "))
+favourite_game = input("What is your favourite game? ")
+
+future_age = age + 10
+print("In 10 years you will be " + str(future_age))
+
+
+if age < 18:
+    print(name + " is a kid who plays " + favourite_game)
+else:
+    print(name + " is an adult who plays " + favourite_game)
